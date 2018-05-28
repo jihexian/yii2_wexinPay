@@ -1,0 +1,21 @@
+{
+    "name": "wxpay/yii2-wxpay",
+    "description": "微信支付sdk（支持公众号、小程序、h5、扫码支付）",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wsyone",
+            "email": "wsyone@faxmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "wsyone\\wxpay\\": ""
+        }
+    }
+}
